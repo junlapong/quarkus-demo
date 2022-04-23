@@ -4,6 +4,14 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Create New
+
+```
+mvn io.quarkus.platform:quarkus-maven-plugin:2.8.1.Final:create \
+  -DprojectGroupId=io.github.junlapong.demo \
+  -DprojectArtifactId=quarkus-demo
+```
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
